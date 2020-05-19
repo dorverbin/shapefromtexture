@@ -1,9 +1,5 @@
 import tensorflow as tf
 
-# Currently the generator can be represented by the string "F-1024_F-6272_R-7-7-128_D5-64_D5-1". Each block is followed by ReLU, BN (except for output and reshape layers); D has stride of 2.
-# and the discriminator can be represented by the string   "C5-64_C5-128_R-6272_F-1024_F-1" Each block is followed by Leaky ReLU, BN (except for input and reshape layers); C has stride of 2.
-
-
 def op2layer(op):
     """
     Create tensorflow operation from string.
