@@ -1,5 +1,6 @@
 import tensorflow as tf
 
+
 def op2layer(op):
     """
     Create tensorflow operation from string.
@@ -10,7 +11,7 @@ def op2layer(op):
 
     Outputs
     -------
-            Operation correspond to op.
+            Operation corresponding to op.
     """
     if op == 'reshape':
         return tf.reshape
