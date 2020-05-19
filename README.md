@@ -4,7 +4,9 @@
 This repository contains code for:
 
 **[Toward a Universal Model for Shape from Texture](http://vision.seas.harvard.edu/sft/)**
+<br>
 [Dor Verbin](https://scholar.harvard.edu/dorverbin) and [Todd Zickler](http://www.eecs.harvard.edu/~zickler/)
+<br>
 CVPR 2020
 
 
