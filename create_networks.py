@@ -60,7 +60,7 @@ def create_generator_discriminator(gen_arch, disc_arch, z_shape, dim_z_global, d
 
             for i, (dzl, shape) in enumerate(zip(dim_z_local_list, shape_list)):
                 if dzl > 0:
-                    print("Creating periodic tensor of shape {}x{}x{}".format(shape[0], shape[1], dzl))
+                    print("Creating local tensor of shape {}x{}x{}".format(shape[0], shape[1], dzl))
                     local_gen_input_list.append(tf.placeholder(tf.float32, shape=[None]+list(shape)+[dzl],
                                                                name='input_z_local_scale{}'.format(i)))
                 else:
