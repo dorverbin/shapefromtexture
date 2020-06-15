@@ -65,9 +65,10 @@ Note: In order to use the Blender files, the two zip files must be unzipped in t
 For citing our paper, please use:
 ```
 @InProceedings{verbin2020sft,
-title={Toward a Universal Model for Shape from Texture},
 author = {Verbin, Dor and Zickler, Todd},
-booktitle={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-year={2020}
+title = {Toward a Universal Model for Shape From Texture},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
 }
 ```
